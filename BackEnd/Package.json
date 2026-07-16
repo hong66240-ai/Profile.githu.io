@@ -1,0 +1,12 @@
+{
+  "name": "signal-keyboards",
+  "version": "1.0.0",
+  "description": "SIGNAL — static site + zero-dependency Node.js backend",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

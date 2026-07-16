@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — SIGNAL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<div class="glow"></div>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="logo"><span class="dot"></span>SIGNAL<span class="status">// online</span></a>
+    <nav class="primary">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="about.html" data-page="about" class="active">About</a>
+      <a href="shop.html" data-page="shop">Shop</a>
+      <a href="contact.html" data-page="contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Search">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <a href="#" class="login-btn">Log in</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="search-overlay" id="searchOverlay">
+  <button class="search-close" id="searchClose">ESC — CLOSE</button>
+  <div class="search-box">
+    <input type="text" placeholder="Search switches, keycaps, boards…" autocomplete="off">
+    <div class="search-hint">TRY "TACTILE" · "65%" · "LINEAR" · "GROUP BUY"</div>
+  </div>
+</div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="shop.html">Shop</a>
+  <a href="contact.html">Contact</a>
+  <a href="#">Log in</a>
+</div>
+<section class="hero" style="grid-template-columns:1fr;padding-bottom:0;">
+  <div>
+    <div class="eyebrow">Who we are</div>
+    <h1>Built by people who <span class="accent">bench-test</span><br>every batch by hand.</h1>
+    <p class="sub">SIGNAL is a small team of switch obsessives — here is how we work.</p>
+  </div>
+</section>
+<section id="about">
+  <div class="about-grid">
+    <div class="about-copy">
+      <p>We started SIGNAL because most keyboards are built to a spec sheet, not to a feel.</p>
+      <p>Every switch we ship is bench-tested by hand before it's approved for a batch — spring weight, bottom-out sound, wobble tolerance. If it doesn't feel right under a real finger, it doesn't ship.</p>
+      <p>Boards are assembled to order in small runs, gasket-mounted for a softer bottom-out, and tuned in-house rather than dropped in as stock components.</p>
+    </div>
+    <div class="stat-grid">
+      <div class="stat"><b>04</b><span>Years tuning switches</span></div>
+      <div class="stat"><b>12K+</b><span>Boards shipped</span></div>
+      <div class="stat"><b>38</b><span>Switch formulas tested</span></div>
+      <div class="stat"><b>100%</b><span>Hand-tested batches</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-row">
+    <span>© 2026 SIGNAL KEYBOARDS</span>
+    <span>DESIGNED &amp; TUNED IN-HOUSE</span>
+  </div>
+</footer>
+
+<script src="./ScriptJava/script.js"></script>
+</body></html>

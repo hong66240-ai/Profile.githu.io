@@ -1,0 +1,23 @@
+[
+  {
+    "id": "signal-65-violet",
+    "name": "SIGNAL 65 — Violet",
+    "description": "65% aluminum, gasket-mounted, hot-swap. Ships with tactile switches at 55g.",
+    "price": 249,
+    "glow": "glow-v"
+  },
+  {
+    "id": "signal-tkl-amber",
+    "name": "SIGNAL TKL — Amber",
+    "description": "Full tenkeyless layout, polycarbonate case, linear switches at 45g.",
+    "price": 219,
+    "glow": "glow-a"
+  },
+  {
+    "id": "signal-switch-pack",
+    "name": "SIGNAL Switch Pack",
+    "description": "Set of 90 hand-tested switches — pick linear, tactile, or a mixed sampler.",
+    "price": 39,
+    "glow": "glow-w"
+  }
+]

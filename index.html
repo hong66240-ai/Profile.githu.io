@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGNAL — Mechanical Keyboards & Switches</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<div class="glow"></div>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="logo"><span class="dot"></span>SIGNAL<span class="status">// online</span></a>
+    <nav class="primary">
+      <a href="index.html" data-page="home" class="active">Home</a>
+      <a href="about.html" data-page="about">About</a>
+      <a href="shop.html" data-page="shop">Shop</a>
+      <a href="contact.html" data-page="contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Search">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <a href="#" class="login-btn">Log in</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="search-overlay" id="searchOverlay">
+  <button class="search-close" id="searchClose">ESC — CLOSE</button>
+  <div class="search-box">
+    <input type="text" placeholder="Search switches, keycaps, boards…" autocomplete="off">
+    <div class="search-hint">TRY "TACTILE" · "65%" · "LINEAR" · "GROUP BUY"</div>
+  </div>
+</div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="shop.html">Shop</a>
+  <a href="contact.html">Contact</a>
+  <a href="#">Log in</a>
+</div>
+<section id="home" class="hero" style="padding-top:56px;">
+  <div>
+    <div class="eyebrow">Precision-built input devices</div>
+    <h1>Every keystroke <span class="accent">tuned</span>,<br>not assumed.</h1>
+    <p class="sub">SIGNAL designs and hand-tunes mechanical keyboards switch-by-switch — for people who notice the difference between a good board and a great one.</p>
+    <div class="hero-ctas">
+      <a href="shop.html" class="btn-primary">Shop the lineup
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="about.html" class="btn-ghost">Our process</a>
+    </div>
+    <div class="specs-row">
+      <div><b>45g</b>Actuation force</div>
+      <div><b>1ms</b>Poll response</div>
+      <div><b>5 yr</b>Switch lifespan</div>
+    </div>
+  </div>
+  <div class="switch-stage">
+    <div class="switch-plate">
+      <div class="stem"></div>
+      <div class="keycap" id="pressCap">PRESS</div>
+    </div>
+    <div class="switch-caption">// click the cap — that's a SIGNAL tactile switch</div>
+  </div>
+</section>
+
+<div class="marquee">
+  <div class="marquee-track">
+    <span>Linear switches</span><span>·</span><span>Tactile switches</span><span>·</span><span>Hot-swap PCBs</span><span>·</span><span>Aluminum cases</span><span>·</span><span>Custom keycap sets</span><span>·</span><span>Gasket mount</span><span>·</span>
+    <span>Linear switches</span><span>·</span><span>Tactile switches</span><span>·</span><span>Hot-swap PCBs</span><span>·</span><span>Aluminum cases</span><span>·</span><span>Custom keycap sets</span><span>·</span><span>Gasket mount</span><span>·</span>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-row">
+    <span>© 2026 SIGNAL KEYBOARDS</span>
+    <span>DESIGNED &amp; TUNED IN-HOUSE</span>
+  </div>
+</footer>
+
+<script src="./ScriptJava/script.js"></script>
+</body></html>
